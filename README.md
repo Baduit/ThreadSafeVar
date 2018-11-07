@@ -8,7 +8,7 @@ There are examples in the file __srd/main.cpp__
 
 ## Requirements
 You need C++ 17 to make it work.
-Well, it could work with C++ 14 i think if you replace
+Well, it could work with C++ 14 I think if you replace
 ```C++
 std::lock_guard lock(_mutex);
 ```
@@ -16,7 +16,7 @@ with
 ```C++
 std::lock_guard<std::mutex> lock(_mutex);
 ```
-but i wanted to use the C++ 17 fancy syntaxe, it is clearer, shorter and cooler.
+but I wanted to use the C++ 17 fancy syntaxe, it is clearer, shorter and cooler.
 
 
 ## How to install it?
